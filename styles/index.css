@@ -1,5 +1,122 @@
 .banner{
+    background: url(../Assets/Banner/banner1.png);
+    /* background-size: cover; */
+    width: 1250px;
+    height: 800px;
+    max-height: 800px;
+}
+.banner-about{
     position: absolute;
-    width: 1240px;
+    text-align: right;
+    top: 250px;
+    padding-left: 850px;
+    padding-right: 200px;
+}
+.banner-title{
+    font-weight: 700;
+    font-style: normal;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.banner-description{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+.primary-btn-title{
+    background-color:lightcoral;
+    width: 120px;
+    height: 44px;
 
+}
+.person-about{
+    display: flex;
+    margin-top: 99px;
+}
+.person-pic{
+    width: 251px;
+    height: 498px;
+    margin-left: 217px;
+}
+.person-about-title{
+    position: absolute;
+    top: 1000px;
+    left: 700px;
+    padding-right: 200px;
+}
+.person-title{
+    font-size: 40px;
+}
+.person-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.chracter-list{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.plan{
+    margin-top: 180px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.panel{
+    display: flex;
+    padding-left: 190px;
+    
+}
+.icon-web{
+    margin-right: 70px;
+}
+.web-icon{
+    padding-left: 40px;
+}
+.web-description{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+.icon-js{
+    margin-right: 70px;
+}
+.ja-icon{
+    padding-left: 10px;
+}
+.js-description{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+.icon-smoke{
+    margin-right: 70px;
+}
+.smoke-icon{
+    padding-left: 30px;
+}
+.smoke-description{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+.icon-ecomerce{
+    margin-right: 70px;
+}
+.eco-icon{
+    padding-left: 30px;
+}
+.eco-decription{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+.plan-title{
+    text-align: center;
 }
